@@ -1,0 +1,19 @@
+{
+  "name": "cliproxyapi-ts",
+  "version": "0.1.0",
+  "description": "TypeScript wrapper to download and run CLIProxyAPI binaries as a child process with generated config.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc --noEmit"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.9.0",
+    "typescript": "^5.6.3"
+  }
+}
